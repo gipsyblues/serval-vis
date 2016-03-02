@@ -24,6 +24,8 @@ $ make
 
 That's it! Of course you should have a working build directory of serval-dna already.
 
+Note: Newer versions of servald have also prior hop information in their ```route print``` command then you should use the prior-hop patch file. This will give you even better topology information!
+
 ## usage
 
 At the moment there are two different ways to visualize your serval routes. Either through a python app or using a modified serval binary together with a webserver and a static website.
